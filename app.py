@@ -4,7 +4,7 @@ import tempfile
 import os
 
 # Initialize the Whisper model
-model = whisper.load_model("tiny")
+model = whisper.load_model("base")
 
 def transcribe_audio(audio_file):
     # Save uploaded file to a temporary file
